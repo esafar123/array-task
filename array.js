@@ -52,8 +52,16 @@ function lengthFunction(numbers){
 }
 console.log(lengthFunction([1,3,7]));
 
-// **Question 9 [🌶️](https://emojipedia.org/hot-pepper):** Given the array **`const temperatures = [72, 68, 74, 80, 76]`**, write JavaScript code to find the highest temperature (the maximum value) in the array.
+// **Question 9 [🌶️](https://emojipedia.org/hot-pepper):** Given the array **`const temperatures = [72, 68, 74, 80, 76]`**, 
+// write JavaScript code to find the highest temperature (the maximum value) in the array.
 
-// **Question 10 [🌶️🌶️](https://emojipedia.org/hot-pepper):** Write JavaScript code to check if the element "banana" exists in the array **`myArray`** and return **`true`** if it does, otherwise, return **`false`**.
+const temperatures = [72, 68, 74, 80, 76];
+temperatures.sort();
+console.log(temperatures[temperatures.length-1]);
 
+// **Question 10 [🌶️🌶️](https://emojipedia.org/hot-pepper):** Write JavaScript code to check if the element "banana" 
+// exists in the array **`myArray`** and return **`true`** if it does, otherwise, return **`false`**.
 
+let qaw = myArray.includes("banana")
+
+    console.log (qaw)
